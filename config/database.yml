@@ -81,4 +81,4 @@ test:
 #
 production:
   <<: *default
-  password: <%= ENV['BOOKS_APP_API_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_URL'] %>
